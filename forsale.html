@@ -5,26 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>For Sale</title>
   <style>
-    /* Basic styling for layout (adjust as needed) */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
+      background-color: #f4f4f4; /* Change the background color as needed */
     }
 
-    /* Style the grid */
+    .header-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #333; /* Change the background color as needed */
+      color: #fff; /* Change the text color as needed */
+    }
+
+    .header-section h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    .header-section p {
+      font-size: 1.2em;
+      margin: 10px 0 0;
+    }
+
+    /* Rest of your styling for the grid and images */
     .image-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
     }
 
-    /* Style each grid item */
     .image-item {
       text-align: center;
     }
 
-    /* Style for image */
     .image-item img {
       max-width: 100%;
       height: auto;
@@ -35,7 +51,11 @@
 </head>
 <body>
 
-  <h1>For Sale - By Owner</h1>
+  <div class="header-section">
+    <h1>For Sale - By Owner</h1>
+    <p>Contact us for more information!</p>
+    <p>Call: <a href="tel:your_phone_number">Your Phone Number</a></p>
+  </div>
 
   <div class="image-grid">
     <!-- Image 1 -->
