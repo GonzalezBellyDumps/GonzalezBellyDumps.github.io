@@ -116,7 +116,7 @@ hr {
 	background: url(images/header.jpg) repeat ;
 	background-size: cover;
 	animation: fadeIn 1.5s ease-in-out;
-}
+} 
 
 @keyframes fadeIn {
 	from {
