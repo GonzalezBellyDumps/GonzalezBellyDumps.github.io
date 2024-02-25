@@ -113,8 +113,8 @@ hr {
 
 #header-wrapper
 {
-	background: url(images/header.jpg) repeat;
-	background-size: contain;
+	background: url(images/header.jpg) repeat ;
+	background-size: cover;
 	animation: fadeIn 1.5s ease-in-out;
 }
 
