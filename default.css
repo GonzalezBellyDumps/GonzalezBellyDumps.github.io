@@ -113,9 +113,19 @@ hr {
 
 #header-wrapper
 {
-	background: url(images/header.jpg) no-repeat center center;
-	background-size: cover;
+	background: url(images/header.jpg) repeat;
+	background-size: contain;
+	animation: fadeIn 1.5s ease-in-out;
 }
+
+@keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
 
 #header {
 	position: relative;
